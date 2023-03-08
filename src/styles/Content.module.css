@@ -1,7 +1,6 @@
 .main {
     display: flex;
     flex-direction: column;
-    background-color: rgb(71, 45, 105);
 }
 
 .content {
