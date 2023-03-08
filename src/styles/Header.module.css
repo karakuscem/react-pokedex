@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: rgb(250, 150, 1);
+    border-bottom: 3px solid;
+    outline: none;
+}
+
+.pokeball {
+    margin-right: 20px;
+    margin-top: 10px;
+    max-width: 100px;
+}
+
+.logo {
+    margin-left: 20px;
+    padding: 10px;
+    max-width: 200px;
+}

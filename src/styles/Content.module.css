@@ -1,0 +1,62 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(71, 45, 105);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 50px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    gap: 10px;
+}
+
+.button {
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  background-color: #fd9001;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #b3cde0;
+}
+
+.button:active {
+  transform: translateY(1px);
+  background-color: #005cbf;
+}
+
+.button.next::before {
+  content: "\2192";
+  margin-right: 0.5rem;
+}
+
+.button.prev::after {
+  content: "\2190";
+  margin-left: 0.5rem;
+}
+
+.loading {
+    display: flex;
+    font-size: x-large;
+    font-weight: bolder;
+    align-content: center;
+    justify-content: center;
+}
